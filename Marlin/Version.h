@@ -91,4 +91,9 @@
    */
   #define WEBSITE_URL "http://marlinfw.org"
 
+  /**
+   * The 3D Tech machine serial number
+   */
+  #define MACHINE_SERIAL_NUMBER "Serial: 0000001"
+
 #endif // USE_AUTOMATIC_VERSIONING
