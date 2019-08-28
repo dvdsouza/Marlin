@@ -295,7 +295,7 @@
 #define MSG_ERR_MINTEMP                     _UxGT("ERR_MINTEMP")
 #define MSG_ERR_MAXTEMP_BED                 _UxGT("ERR_MAXTEMP_BED")
 #define MSG_ERR_MINTEMP_BED                 _UxGT("ERR_MINTEMP_BED")
-#define MSG_HEATING                         _UxGT("Aquecendo..."#define MSG_BED_HEATING                     _UxGT("Aquecendo base...")
+#define MSG_HEATING                         _UxGT("Aquecendo...")
 #define MSG_BED_HEATING                     _UxGT("Aquecendo Mesa...")
 #define MSG_DELTA_CALIBRATE_X               _UxGT("Calibrar X")
 #define MSG_DELTA_CALIBRATE_Y               _UxGT("Calibrar Y")
