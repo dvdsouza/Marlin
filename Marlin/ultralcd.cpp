@@ -3515,18 +3515,6 @@ void lcd_quick_feedback(const bool clear_buttons) {
       #endif
     #endif // FAN_COUNT > 0
 
-    //
-    // Autotemp, Min, Max, Fact
-    //
-    #if ENABLED(AUTOTEMP) && HAS_TEMP_HOTEND
-      MENU_ITEM_EDIT(bool, MSG_AUTOTEMP, &planner.autotemp_enabled);
-      MENU_ITEM_EDIT(float3, MSG_MIN, &planner.autotemp_min, 0, float(HEATER_0_MAXTEMP) - 15);
-      MENU_ITEM_EDIT(float3, MSG_MAX, &planner.autotemp_max, 0, float(HEATER_0_MAXTEMP) - 15);
-      MENU_ITEM_EDIT(float52, MSG_FACTOR, &planner.autotemp_factor, 0, 1);
-    #endif
-
-
-
     #if DISABLED(SLIM_LCD_MENUS)
       //
       // Preheat Material 1 conf
