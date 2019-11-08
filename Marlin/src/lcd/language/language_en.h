@@ -257,7 +257,7 @@
   #define MSG_EDITING_STOPPED                 _UxGT("Mesh Editing Stopped")
 #endif
 #ifndef MSG_PROBING_MESH
-  #define MSG_PROBING_MESH                    _UxGT("Probing Point")
+  #define MSG_PROBING_MESH                    _UxGT("Ponto")
 #endif
 #ifndef MSG_MESH_X
   #define MSG_MESH_X                          _UxGT("Index X")
@@ -823,7 +823,7 @@
   #define MSG_TUNE                            _UxGT("Tune")
 #endif
 #ifndef MSG_START_PRINT
-  #define MSG_START_PRINT                     _UxGT("Start Print")
+  #define MSG_START_PRINT                     _UxGT("Você deseja imprimir")
 #endif
 #ifndef MSG_BUTTON_NEXT
   #define MSG_BUTTON_NEXT                     _UxGT("Next")
@@ -832,16 +832,16 @@
   #define MSG_BUTTON_INIT                     _UxGT("Init")
 #endif
 #ifndef MSG_BUTTON_STOP
-  #define MSG_BUTTON_STOP                     _UxGT("Stop")
+  #define MSG_BUTTON_STOP                     _UxGT("Parar")
 #endif
 #ifndef MSG_BUTTON_PRINT
-  #define MSG_BUTTON_PRINT                    _UxGT("Print")
+  #define MSG_BUTTON_PRINT                    _UxGT("Imprimir")
 #endif
 #ifndef MSG_BUTTON_RESET
   #define MSG_BUTTON_RESET                    _UxGT("Reset")
 #endif
 #ifndef MSG_BUTTON_CANCEL
-  #define MSG_BUTTON_CANCEL                   _UxGT("Cancel")
+  #define MSG_BUTTON_CANCEL                   _UxGT("Cancelar")
 #endif
 #ifndef MSG_BUTTON_DONE
   #define MSG_BUTTON_DONE                     _UxGT("Done")

@@ -412,9 +412,9 @@
   #define MSG_FILAMENT_CHANGE_INSERT_3      _UxGT("para continuar...")
 
   #define MSG_FILAMENT_CHANGE_HEAT_1        _UxGT("Pressione o botão")
-  #define MSG_FILAMENT_CHANGE_HEAT_2        _UxGT("p/ aquecer o bocal")
+  #define MSG_FILAMENT_CHANGE_HEAT_2        _UxGT("p/ aquecer o bico")
 
-  #define MSG_FILAMENT_CHANGE_HEATING_1     _UxGT("Aquecendo o bocal")
+  #define MSG_FILAMENT_CHANGE_HEATING_1     _UxGT("Aquecendo o bico")
   #define MSG_FILAMENT_CHANGE_HEATING_2     _UxGT("Aguarde...")
 
   #define MSG_FILAMENT_CHANGE_UNLOAD_1      _UxGT("Esperando")
