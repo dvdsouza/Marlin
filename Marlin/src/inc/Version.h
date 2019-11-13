@@ -94,4 +94,19 @@
    */
   #define WEBSITE_URL "http://marlinfw.org"
 
+  /**
+   * The 3D TECH Website url
+  */
+  #define COMPANY_WEBSITE_URL "3dtechbrasil.com.br"
+
+  /**
+   * Marlin-3DTech release version identifier
+   */
+  #define COMPANY_BUILD_VERSION "2.1.0"
+
+  /**
+   * Machine Serial Number
+   */
+  #define MACHINE_SERIAL_NUMBER "01112019113000001"
+
 #endif // USE_AUTOMATIC_VERSIONING

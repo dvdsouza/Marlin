@@ -259,23 +259,26 @@ void menu_info_board() {
       #endif
     );
     START_SCREEN();
-    STATIC_ITEM(MSG_MARLIN, SS_CENTER|SS_INVERT);               // Marlin
-    STATIC_ITEM(SHORT_BUILD_VERSION);                           // x.x.x-Branch
-    STATIC_ITEM(STRING_DISTRIBUTION_DATE);                      // YYYY-MM-DD HH:MM
-    STATIC_ITEM(MACHINE_NAME);                                  // My3DPrinter
-    STATIC_ITEM(WEBSITE_URL);                                   // www.my3dprinter.com
-    STATIC_ITEM(MSG_INFO_EXTRUDERS ": " STRINGIFY(EXTRUDERS));  // Extruders: 2
-    #if ENABLED(AUTO_BED_LEVELING_3POINT)
-      STATIC_ITEM(MSG_3POINT_LEVELING);                         // 3-Point Leveling
-    #elif ENABLED(AUTO_BED_LEVELING_LINEAR)
-      STATIC_ITEM(MSG_LINEAR_LEVELING);                         // Linear Leveling
-    #elif ENABLED(AUTO_BED_LEVELING_BILINEAR)
-      STATIC_ITEM(MSG_BILINEAR_LEVELING);                       // Bi-linear Leveling
-    #elif ENABLED(AUTO_BED_LEVELING_UBL)
-      STATIC_ITEM(MSG_UBL_LEVELING);                            // Unified Bed Leveling
-    #elif ENABLED(MESH_BED_LEVELING)
-      STATIC_ITEM(MSG_MESH_LEVELING);                           // Mesh Leveling
-    #endif
+    STATIC_ITEM(MACHINE_NAME, SS_CENTER|SS_INVERT);                // 3D TECH
+    STATIC_ITEM(MSG_MARLIN);                                       // Marlin
+    // STATIC_ITEM(SHORT_BUILD_VERSION);                           // x.x.x-Branch
+    STATIC_ITEM(COMPANY_BUILD_VERSION);                            // 2.1.0
+    // STATIC_ITEM(STRING_DISTRIBUTION_DATE);                      // YYYY-MM-DD HH:MM
+    // STATIC_ITEM(WEBSITE_URL);                                   // www.my3dprinter.com
+    STATIC_ITEM(MACHINE_SERIAL_NUMBER);                            // 01112019113000001
+    STATIC_ITEM(COMPANY_WEBSITE_URL);                              // 3dtechbrasil.com.br
+    // STATIC_ITEM(MSG_INFO_EXTRUDERS ": " STRINGIFY(EXTRUDERS));  // Extruders: 2
+    // #if ENABLED(AUTO_BED_LEVELING_3POINT)
+    //   STATIC_ITEM(MSG_3POINT_LEVELING);                         // 3-Point Leveling
+    // #elif ENABLED(AUTO_BED_LEVELING_LINEAR)
+    //   STATIC_ITEM(MSG_LINEAR_LEVELING);                         // Linear Leveling
+    // #elif ENABLED(AUTO_BED_LEVELING_BILINEAR)
+    //   STATIC_ITEM(MSG_BILINEAR_LEVELING);                       // Bi-linear Leveling
+    // #elif ENABLED(AUTO_BED_LEVELING_UBL)
+    //   STATIC_ITEM(MSG_UBL_LEVELING);                            // Unified Bed Leveling
+    // #elif ENABLED(MESH_BED_LEVELING)
+    //   STATIC_ITEM(MSG_MESH_LEVELING);                           // Mesh Leveling
+    // #endif
     END_SCREEN();
   }
 
@@ -297,10 +300,10 @@ void menu_info() {
     ));
   #else
     SUBMENU(MSG_INFO_PRINTER_MENU, menu_info_printer);           // Printer Info >
-    SUBMENU(MSG_INFO_BOARD_MENU, menu_info_board);               // Board Info >
-    #if EXTRUDERS
-      SUBMENU(MSG_INFO_THERMISTOR_MENU, menu_info_thermistors);  // Thermistors >
-    #endif
+    // SUBMENU(MSG_INFO_BOARD_MENU, menu_info_board);               // Board Info >
+    // #if EXTRUDERS
+    //   SUBMENU(MSG_INFO_THERMISTOR_MENU, menu_info_thermistors);  // Thermistors >
+    // #endif
   #endif
 
   #if ENABLED(PRINTCOUNTER)
