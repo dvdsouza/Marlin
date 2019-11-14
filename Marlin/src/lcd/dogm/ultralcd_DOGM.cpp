@@ -167,7 +167,7 @@ bool MarlinUI::detected() { return true; }
   void MarlinUI::draw_marlin_bootscreen(const bool line2/*=false*/) {
 
     // Determine text space needed
-    constexpr u8g_uint_t text_width_1 = u8g_uint_t((sizeof(SHORT_BUILD_VERSION) - 1) * (MENU_FONT_WIDTH)),
+    constexpr u8g_uint_t text_width_1 = u8g_uint_t((sizeof(COMPANY_BUILD_VERSION) - 1) * (MENU_FONT_WIDTH)),
                          text_width_2 = u8g_uint_t((sizeof(MARLIN_WEBSITE_URL) - 1) * (MENU_FONT_WIDTH)),
                          text_max_width = _MAX(text_width_1, text_width_2),
                          text_total_height = (MENU_FONT_HEIGHT) * 2,
@@ -198,7 +198,7 @@ bool MarlinUI::detected() { return true; }
     auto _draw_bootscreen_bmp = [&](const uint8_t *bitmap) {
       u8g.drawBitmapP(offx, offy, START_BMP_BYTEWIDTH, START_BMPHEIGHT, bitmap);
       set_font(FONT_MENU);
-      if (!two_part || !line2) lcd_put_u8str_P(txt_offx_1, txt_base - (MENU_FONT_HEIGHT), PSTR(SHORT_BUILD_VERSION));
+      if (!two_part || !line2) lcd_put_u8str_P(txt_offx_1, txt_base - (MENU_FONT_HEIGHT), PSTR(COMPANY_BUILD_VERSION));
       if (!two_part || line2) lcd_put_u8str_P(txt_offx_2, txt_base, PSTR(MARLIN_WEBSITE_URL));
     };
 
