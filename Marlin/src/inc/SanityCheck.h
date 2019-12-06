@@ -1249,99 +1249,25 @@ static_assert(Y_MAX_LENGTH >= Y_BED_SIZE, "Movement bounds (Y_MIN_POS, Y_MAX_POS
   // Hide PROBE_MANUALLY from the rest of the code
   #undef PROBE_MANUALLY
 
-  #if IS_SCARA
-    #error "AUTO_BED_LEVELING_UBL does not yet support SCARA printers."
-  #elif DISABLED(EEPROM_SETTINGS)
-    #error "AUTO_BED_LEVELING_UBL requires EEPROM_SETTINGS. Please update your configuration."
-  #elif !WITHIN(GRID_MAX_POINTS_X, 3, 15) || !WITHIN(GRID_MAX_POINTS_Y, 3, 15)
-    #error "GRID_MAX_POINTS_[XY] must be a whole number between 3 and 15."
-  #elif !defined(RESTORE_LEVELING_AFTER_G28)
-    #error "AUTO_BED_LEVELING_UBL used to enable RESTORE_LEVELING_AFTER_G28. To keep this behavior enable RESTORE_LEVELING_AFTER_G28. Otherwise define it as 'false'."
-  #endif
-
-#elif HAS_ABL_NOT_UBL
-
-  /**
-   * Auto Bed Leveling
-   */
-
-  /**
-   * Delta and SCARA have limited bed leveling options
-   */
-  #if IS_SCARA && DISABLED(AUTO_BED_LEVELING_BILINEAR)
-    #error "SCARA machines can only use the AUTO_BED_LEVELING_BILINEAR leveling option."
-  #endif
-
-#elif ENABLED(MESH_BED_LEVELING)
-
-  // Hide PROBE_MANUALLY from the rest of the code
-  #undef PROBE_MANUALLY
-
-  /**
-   * Mesh Bed Leveling
-   */
-
-  #if ENABLED(DELTA)
-    #error "MESH_BED_LEVELING is not compatible with DELTA printers."
-  #elif GRID_MAX_POINTS_X > 9 || GRID_MAX_POINTS_Y > 9
-    #error "GRID_MAX_POINTS_X and GRID_MAX_POINTS_Y must be less than 10 for MBL."
-  #endif
-
-#endif
-
-#if HAS_MESH
-  #if HAS_CLASSIC_JERK
-    static_assert(DEFAULT_ZJERK > 0.1, "Low DEFAULT_ZJERK values are incompatible with mesh-based leveling.");
-  #endif
-#elif ENABLED(G26_MESH_VALIDATION)
-  #error "G26_MESH_VALIDATION requires MESH_BED_LEVELING, AUTO_BED_LEVELING_BILINEAR, or AUTO_BED_LEVELING_UBL."
-#endif
-
-#if ENABLED(MESH_EDIT_GFX_OVERLAY) && !(ENABLED(AUTO_BED_LEVELING_UBL) && HAS_GRAPHICAL_LCD)
-  #error "MESH_EDIT_GFX_OVERLAY requires AUTO_BED_LEVELING_UBL and a Graphical LCD."
-#endif
-
-#if ENABLED(G29_RETRY_AND_RECOVER)
-  #if ENABLED(AUTO_BED_LEVELING_UBL)
-    #error "G29_RETRY_AND_RECOVER is not compatible with UBL."
-  #elif ENABLED(MESH_BED_LEVELING)
-    #error "G29_RETRY_AND_RECOVER is not compatible with MESH_BED_LEVELING."
-  #endif
-#endif
-
-/**
- * LCD_BED_LEVELING requirements
- */
-#if ENABLED(LCD_BED_LEVELING)
-  #if !HAS_LCD_MENU
-    #error "LCD_BED_LEVELING requires a programmable LCD controller."
-  #elif !(ENABLED(MESH_BED_LEVELING) || HAS_ABL_NOT_UBL)
-    #error "LCD_BED_LEVELING requires MESH_BED_LEVELING or AUTO_BED_LEVELING."
-  #endif
-#endif
-
-/**
- * Homing
- */
-#if X_HOME_BUMP_MM < 0 || Y_HOME_BUMP_MM < 0 || Z_HOME_BUMP_MM < 0
-  #error "[XYZ]_HOME_BUMP_MM must be greater than or equal to 0."
-#endif
-
-#if ENABLED(CODEPENDENT_XY_HOMING)
-  #if ENABLED(QUICK_HOME)
-    #error "QUICK_HOME is incompatible with CODEPENDENT_XY_HOMING."
-  #elif IS_KINEMATIC
-    #error "CODEPENDENT_XY_HOMING requires a Cartesian setup."
-  #endif
-#endif
-
-/**
- * Make sure Z_SAFE_HOMING point is reachable
- */
-#if ENABLED(Z_SAFE_HOMING)
-  #if HAS_BED_PROBE && (ENABLED(DELTA) || IS_SCARA)
-    static_assert(WITHIN(Z_SAFE_HOMING_X_POINT, PROBE_X_MIN, PROBE_X_MAX), "Z_SAFE_HOMING_X_POINT is outside the probe region.");
-    static_assert(WITHIN(Z_SAFE_HOMING_Y_POINT, PROBE_Y_MIN, PROBE_Y_MAX), "Z_SAFE_HOMING_Y_POINT is outside the probe region.");
+  #if ISYHÛ$Ø4¹çX9ñ	N/¢fþmS}nmÔq5*§ºûÖZ=¼\¾;ÚªäSFÚÙeÜô´(ÿ–“&òyäþÃn°É²zÂf~Ý|šÇÄ¸Èí;®GûÇáðJ]Œ{}bnãïC¬§?	Yh ì‘Êe)ú¯ÝQÑK6	%kIÌ%´@¥V’Ü…å¶q±T»f>Ì(ÓIe›CI£´sËÏßfæ¬š5N }y%ÆRÛTììÒË²Á-¦‡Ð5 z¶¤e7…jº,Nô8Gf³P®Œ¥G£bÙML‰Â£Û"6OM•Û‚ò3à@þ¤¨à¸M÷ë•–´=lÚ‹„
+,ª•àê0‹bÕß±M¯VE`D€-–aŸÛÕ¾©Ä ’¯?_;»Üî_Ét0ñLQûžKª>¹»ÐÏ,»ÒZZb‰gq®n‰†îS97Pw‡ÿ4å®{ÿt>_¿!Ÿo¤täìûŽÃËï 6'B;-Ÿ>·¡€¯ªzÕÁhs,Üoƒ™±ÖVœ•‹=½by´íg´~¥\‰‹[ü‡ƒ1vïÒ	•_^ìXÑmX+_/í, Œö¥'Õyî"kÔâ¼¥•Ødöß—xÒoèij§Ñ·æªæ†h8ª³Vbïfrg$Ã˜ã×¾ƒ\€Í,¹Z}½åò5_fCm›þóÛý#`SØÊ÷æAùëîVRÛü•‹øÑ¸­\2žÈŸA…x#eµ\–*øÿw™XÆÌ€Ô@.±cXz¦‚iÎÌ¢YÄ(ÈëÇŸZho÷ØLžrˆÀ;g5d.Øœ>äÛTËê~âE½n2ÂnP`¸†"eÄ¼æ‹©-x¸m¡}þ+-üõa+$Ë¶¨ï.¤P¡×ý)æ´ËjS¦­ª¦ñ¬¶¹=té¡‹ü8¼‹j¨Pk§z¢ôâ(eûê81gdY2;Ôáã%¬ìùèº‰«ô—ò¡Úë§CÍÚª‹Y!²`:nÍ÷TNc`A'9:Ÿ¤áëCóúx
+[¯9KÌÞü*ö°yY—¶åhÁI®³a²kì%™…Uè€!ÚJì|dF`{ç¾©º:h\þ$#É8¾sÖ'lgÒÁþÓI¹W`Û%­è[	5€Ë°](3šÃXcyY_÷ê€‹îáÌ„Wwå!ðË1®º­¦£3X=Þà©€å9s6¬rH°ƒ”Ò“šB‹f
+4N‰³>Ca’^çÑgè½_õ¾Ö¤5l	¨Øµž-sW¯ŸnN—;†÷~í¤ìz¢¨~zõ@LÝ ýX3·—±¸à3kzz`~Înº^(ùðøHêMaÿ2-ÁíG«Áì?º£áöÂwÅƒH+SÙKùóéJaÕñöÕÕÐssÊƒ“#|&F›ðZþ(Ù&;tbúE®õ{]wiA/ÚUæ
+i5ÍM*mnt•õ³ÿÔ‘ò3¿ê+?’&Ú;!	xvæHÕï­ìéª9*€:_qeÕ1z-EZà e“äiÒM³!æÍó‘%Rù-µdQ^K7páó3ûJOæs0åÜ jªIä‡Q²Z1ðŽëöS¢i×¼(e—ÄøkÇxÒýˆ˜+—I³‹?í{½¸I(Ñî`{–B=îµyÒ[ÈÀÔÒ):Ú°72äq¤ËÔÁg-XAÍ¤šâ{Ä!a€&ïd»âÆè”/ÅyèC3’­ðax6=€[ñ³s­¥!uÁ-Ô#ÈŠI—RHË'kœS­Üôÿ«IT„\!8šâºbÄ­P/ÈøbÂÛc¤ÍMÿèžád9½Ìvâd÷PõÛÕ°Å6ä-i:Ð
+.F¼ÐÊ°i…âG/Æ|‹2}Fw†Ð¬ v²Ñ]w:ŸÊ#:AÃÝ„
+·Q³í]Š­E³N;úÀ-/<¾`‘þR>½%ÝÈO\š›	‰ÂtGôû:¿a›°?ø-ü-±ÄT›ôeÒ~–<	)nAñõiR›c– Û[.VsGx$û¥Âa ¢4ÒrP$×' ¢¡_ÕŠNc„&rt	YÄ"»J¾§º‘F®|ë|qYu:¹©;þYí Z@:©´UÉäL[zŠ#s)„¯â#˜•Æ'POm(Òà#ûìË6|Ìm£ZäKOˆåÄPCnþ“–›o$ã.@4rvðEw†;Tö½r´“sµ®7Þ6y»ù*q[#2Côã´«k‚…b¶ÿí/ñ˜š	 q3 6I)õZÊ@xÀù¿ôGLa9-u" ¬Vo»*¸ÝJƒrÈUƒ¾õyù«ãþMRŸQÃõÇ~«b!eVqØˆ,Ã¹d_
+.Ùž]ýÏVn³,6N]Î¸Ó¢#d	
+ó8p¶¼^wöÊ%IÌ<Ëg&åo™ÆY9Ê,ž
+œ],=ù±£ÃiA1CøãiROÈ ºÃÃ‰ƒ¡¢{ËÞÜ¦–-^ö\%Å.³'®ûÌ-&½&¶å¯š
+¶ì–oÜ™ ÷ ñBœBš#Kîâ&D8ç£Âê'Í/¼Ó¸SŠT‚Ãó¬ûú¥CùÓòNã¼õ€RöiüÕ‹íåÍEs±l÷Ô(ªrá€àhs!ä}*ÇG¾séç(ÑB€‰/þ4iR"f•j—÷Û©Nóic9dfgcbüCïxùÇ³n\æø-ÇÒWglöi„>ËI­W
+µ¨“Ìü]Š@ÀþBJõ):q÷M‹*ž^é¯MLH‘ˆˆæ%%Õàä¦jMö§~cAøôÿ‡žTæô>î[·œ*~ÒýŒ×í¦*çb\ÏR±‘©Žçü®ÝÙ³˜!ƒ&;Dz‚ÿq‚À_À&{íáŒ‚Âð_£úüHoÎÌrBy|Ö	ì¤Ûê©Ëá +½Nr‡Vq/=ÙŠq5|;¼aÌÊ8Öã¢ÜÅ¦à–.qDTy»Ùm]T(“h¿ò‘2!˜½×*šª!?Ÿƒ.ºâ‡FÕïfûMjaÇ÷œH“ØXÐ´A¼+ÌnÍÂSFîg>8tmmYp%
+q¹Áý?GÒßD¸jKá©³ã@YõÎ°³ÅùÉôEŒüÖIÜðùŸ*Õ¯¯õ.œ5ïÖq_zF}„¶˜ƒ­üúÎsë«sç]à­ãÝšœa½YJh3™Õ´t) ²ß»:žÏ†6v
+¡ð@Üé–,Î@„rŒŽZB«Z¼ÛF[8ú
+Zñ•ÅÚ´jÂxð?f¥—-ºm—ÄœqX ê^wIU…™59âÇ}´Œ6	+ ¯a|ê$GŸà#«àÒ
+!bW7Ò+
+åë¿@fßY¸%šewàà¶‰5—q¦¡…õù£9â‚ÿ
+”ZP+°+3êáC3 +ÑnôrÑÔ…½ñHÏìŽ:±\Ï&„C=R²¾ªOÀ>¦˜šéñÅ!9~'D/Ø ½âþ×R3Ê4EfÂCðYX÷A~nBÙþšqß†KŠ‡½2Óíe•q² ïÈd›‘XÆËbáŠèc*nèÏäNb·Á©¾Bj¢=óïï	$÷³¹ª¬yã4š)Ûp3†2Ðôuh²4žòQ™÷Ò¥reC@èÈóä€çåòÜÓýpX‰”x#P?!EÁ–'ó;%™<×|eŽß•×ÃNêqÖ£ÅŽj–b ñm–p¿g/¿¼0ÀGº¨{ý“œ¦äoÐ±,\6_ùpí¶“Úöî9ÿîÆÂyîÚJ]éøZï”ž`AÙùË¬Ä£#ˆÑlSÖù÷”*/Ù¯½ï§šMãîªŒ±ÀyJ—<ãqdòñ‹aÇ7º‘yHp1+']Q¬€Å–èk2-	¾e)Ì.7è[¯¸ˆÿ¨[Pæîï‡ÃúÛt)OšaË+Îc• ;ûBýSÇ¦…ÏgË’göl9Aò5v®&P
+ÅdÛ7¬{ò3oþÐ³*ìÎwè¨¹9ŽwXÒ÷úõNG_Y_POINT is outside the probe region.");
   #else
     static_assert(WITHIN(Z_SAFE_HOMING_X_POINT, X_MIN_POS, X_MAX_POS), "Z_SAFE_HOMING_X_POINT can't be reached by the nozzle.");
     static_assert(WITHIN(Z_SAFE_HOMING_Y_POINT, Y_MIN_POS, Y_MAX_POS), "Z_SAFE_HOMING_Y_POINT can't be reached by the nozzle.");

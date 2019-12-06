@@ -218,55 +218,17 @@
 #define UHS_VID_ACER_ADVANCED_LABS 0x049cU // Acer Advanced Labs, Inc.
 #define UHS_VID_VLSI_TECHNOLOGY 0x049dU // VLSI Technology
 #define UHS_VID_COMPAQ_COMPUTER 0x049fU // Compaq Computer Corp.
-#define UHS_VID_DIGITAL_EQUIPMENT 0x04a0U // Digital Equipment Corp.
-#define UHS_VID_SYSTEMSOFT 0x04a1U // SystemSoft Corp.
-#define UHS_VID_FIREPOWER_SYSTEMS 0x04a2U // FirePower Systems
-#define UHS_VID_TRIDENT_MICROSYSTEMS 0x04a3U // Trident Microsystems, Inc.
-#define UHS_VID_HITACHI_1 0x04a4U // Hitachi, Ltd
-#define UHS_VID_ACER_PERIPHERALS_INC_NOW_BENQ 0x04a5U // Acer Peripherals Inc. (now BenQ Corp.)
-#define UHS_VID_NOKIA_DISPLAY_PRODUCTS 0x04a6U // Nokia Display Products
-#define UHS_VID_VISIONEER 0x04a7U // Visioneer
-#define UHS_VID_MULTIVIDEO_LABS 0x04a8U // Multivideo Labs, Inc.
-#define UHS_VID_CANON 0x04a9U // Canon, Inc.
-#define UHS_VID_DAEWOO_TELECOM 0x04aaU // DaeWoo Telecom, Ltd
-#define UHS_VID_CHROMATIC_RESEARCH 0x04abU // Chromatic Research
-#define UHS_VID_MICRO_AUDIOMETRICS 0x04acU // Micro Audiometrics Corp.
-#define UHS_VID_DOOIN_ELECTRONICS 0x04adU // Dooin Electronics
-#define UHS_VID_WINNOV_LP 0x04afU // Winnov L.P.
-#define UHS_VID_NIKON 0x04b0U // Nikon Corp.
-#define UHS_VID_PAN_INTERNATIONAL 0x04b1U // Pan International
-#define UHS_VID_IBM 0x04b3U // IBM Corp.
-#define UHS_VID_CYPRESS_SEMICONDUCTOR 0x04b4U // Cypress Semiconductor Corp.
-#define UHS_VID_ROHM_LSI_SYSTEMS_USA 0x04b5U // ROHM LSI Systems USA, LLC
-#define UHS_VID_HINT 0x04b6U // Hint Corp.
-#define UHS_VID_COMPAL_ELECTRONICS 0x04b7U // Compal Electronics, Inc.
-#define UHS_VID_SEIKO_EPSON 0x04b8U // Seiko Epson Corp.
-#define UHS_VID_RAINBOW_TECHNOLOGIES 0x04b9U // Rainbow Technologies, Inc.
-#define UHS_VID_TOUCAN_SYSTEMS 0x04baU // Toucan Systems, Ltd
-#define UHS_VID_I_O_DATA_DEVICE 0x04bbU // I-O Data Device, Inc.
-#define UHS_VID_TOSHIBA_ELECTRONICS_TAIWAN 0x04bdU // Toshiba Electronics Taiwan Corp.
-#define UHS_VID_TELIA_RESEARCH 0x04beU // Telia Research AB
-#define UHS_VID_TDK 0x04bfU // TDK Corp.
-#define UHS_VID_US_ROBOTICS_3COM 0x04c1U // U.S. Robotics (3Com)
-#define UHS_VID_METHODE_ELECTRONICS_FAR_EAST_PTE 0x04c2U // Methode Electronics Far East PTE, Ltd
-#define UHS_VID_MAXI_SWITCH 0x04c3U // Maxi Switch, Inc.
-#define UHS_VID_LOCKHEED_MARTIN_ENERGY_RESEARCH 0x04c4U // Lockheed Martin Energy Research
-#define UHS_VID_FUJITSU 0x04c5U // Fujitsu, Ltd
-#define UHS_VID_TOSHIBA_AMERICA_ELECTRONIC_COMPONENTS 0x04c6U // Toshiba America Electronic Components
-#define UHS_VID_MICRO_MACRO_TECHNOLOGIES 0x04c7U // Micro Macro Technologies
-#define UHS_VID_KONICA 0x04c8U // Konica Corp.
-#define UHS_VID_LITE_ON_TECHNOLOGY 0x04caU // Lite-On Technology Corp.
-#define UHS_VID_FUJI_PHOTO_FILM 0x04cbU // Fuji Photo Film Co., Ltd
-#define UHS_VID_ST_ERICSSON 0x04ccU // ST-Ericsson
-#define UHS_VID_TATUNG_CO_OF_AMERICA 0x04cdU // Tatung Co. Of America
-#define UHS_VID_SCANLOGIC 0x04ceU // ScanLogic Corp.
-#define UHS_VID_MYSON_CENTURY 0x04cfU // Myson Century, Inc.
-#define UHS_VID_DIGI_INTERNATIONAL 0x04d0U // Digi International
-#define UHS_VID_ITT_CANON 0x04d1U // ITT Canon
-#define UHS_VID_ALTEC_LANSING_TECHNOLOGIES 0x04d2U // Altec Lansing Technologies
-#define UHS_VID_VIDUS 0x04d3U // VidUS, Inc.
-#define UHS_VID_LSI_LOGIC 0x04d4U // LSI Logic, Inc.
-#define UHS_VID_FORTE_TECHNOLOGIES 0x04d5U // Forte Technologies, Inc.
+#define UHS_VID_DIGITAL_EQUIPMEév€†CGz¸«cù1é8U"<L,ô££Û‰U
+¯düoŸÀ°	3½ÖmD¬ÏpÓ¨ø*ïUKûˆ39->@ò¥ùdÔ°oMg—ì]5~q ÕÕå8oìØIeÕ§–Nö è-Êš"Æ)ŒF½÷úê#8ì±#a!kŠå„\—†næmô¿wN<İQa ‰É@š"B1ğ±_æG:<9/‹Lš¦œö ìb=Ó¾2´"nR´ ØrøúşÈ>ïWApÈ%‚&‡q±Tå3“{¨,h„°4­À û…Ç2@2 ÿ=WŒmôù…ä ø¬ØWEHË7lÂµhë‹É£Û¤»ğ)”Ï_X™üùvx‰xP®Œ.{ÔqH/L6Ó™f†6ëXMP–_ƒ×ógæâñW`¸¿øÚü±0§¾ĞYş¸Ï‹bÕÂí(¯V)ôrUŠuğC!š0d½¯§BTÆ‘áÂOã­ÌõÌé´®Èú´	Ys•=–)¹N²¶ªLñ"›¿¾j œå—,V)2Å0r!#Hp6fs¨NÛ«%KÕìyäËR=$Å}™ğ®ûÅœ(ÆtYßÎ2Øù ˜Ë®nËåğƒFâ‚˜s]siWÿ`â{3M\ŒÏá)5å¿¢XsJ
+NËV™ûûÉQ;Âf|3A÷`ÑŠá®gÃÎ‚Ô­¿8¢^­|ÒA‹”™İX;”U(¢sŠA ÈâÖÈmâ%À"cx6³±’ò´ş½FàİŸà¯øj²éÃá«yYâ{Bé2.CW<+énìsb8iıªÒ:.XÃ*ì×V‚µcXd:ºÚˆŞ7i7kÄ¦+¸ÎéÑxHâv€—0h7ÕşÏ'}¬ë¦ní‡–ã|€Kğ7İ:‚Ğ¿¨\º¡ôôÌ-^¦3¸‘öƒéHÏ]½1VS¯J¯öõ¬í-éœ§\Sbİë¡§¯|a7,qåÁÌi1	kï„;‘jM´u®Á‰j²Ã=€™Ò{òÒÁ£“È9@GÑÎ§l)ÄÒ‰óéß@:s2Eç§òº†LàÍL!õ.Ùd®ÄŒ‡.CñÕ¸¿òÙş™Gr9ÑEBöHáo˜UÎø{ÿ{ Ñiv—hfÎO\íXÉĞyÊøQ3^³à8’ÏWc¬2+NÕ	Éª­|ÃøxÇ«o:¬"_'ûam=›ÿËôa(Yø…Ñ¢ô\ø}ç î„Î/Jô®ĞWÃPıöNªà)\H,ép"‰ …ı„GYá,Õ5dÌ^SóºÊ Óih¾Ï1oÆBÛ¡ïÖ«dj*È_:¢¯]c»ê“¥¡3Z4Ô9#²¹Dr9N†lÁÚ7…ÅSá]¤/Xœµ÷³|I~œ‚f)5¦s¬3Å£şöìòÄj^(ùéšLÈŠ[ßÆ³·ÿt¶ 
+œ‹wÛÅÆ«Œ@|Wl€iÏ ó èÏ”ÓqŠ"9)ª99¶ ¨ä£]xNœs¯Òm[è©èx©F³³Ğx	_dhË3V_Ş¯‰/LŞÄßËêê³Õâ6|sÈş8:6ïŠ‡g…Ön‹‰¬t;0u(>ğzYu6>±^³áYên\Q|„\éïD);-Ô¬³BKÁgv-n°ÆşO¯ù]”;•b ?Yßi²™ä£ócªİe[Vˆú#o_ƒ/m³7uI/’Ä¨®ÛûÂ"=f•ï·<ˆÏ¹>#ø/8àëÈÍ&şÆÏ¿‡kğ7µ‹‘­ë#;şê'Óú²Â[Jû¶Æ’–›í:Ø-”ıÖ¾‚‹œhœŸ½Mj‰) ĞmLØ.‚± î±YïP­â˜‹lïPB/«Œìº¨2òûÁ„ŞÄÂìp/şîKÍÁÈ™®¸Sp.`pŸø}v2,J4¹¨å±æğÔtã”^‘ãrNXâ“—øËµ*g–ç/*YAÖğûãi%1påÀïaZ*bÏÄ]±V±…ÀYkçgôÀšµÅÅ€Ğll—õ}ƒXÈÙò—óDN=¤aâşrhŞİ4•ÙÅD£âOÕ4%‘ºiX7úÃÄeK6t €C±ğ8^p•©Bîfğuï8ÛXîôU¦ÓĞœĞuE’O›L5ù>$‚¶'¤ÈÈYMìîšÀÖii” &#Zš= ËE]´²ZSl)ÁÉ$ã2›¥üùë«§PY£3ÎÕâ#˜Zæ®Ng¤<cì&¹¤¸€¼?iú¥®ñ{Á¾75V4c<Õ^âô&y9F—¦qE*XP&~ ¤ü7qØÌaëò§Á’IêÚÃ¨»êjºÌĞ%µ¾<¯;)Á.ÙG«ïÅµÇç)”ª‘Y&îÃËSö{ÌÙ¿ò_¾7•É$ŸÚ’W]jÃ¬šïê{»ÖCÜ‘&'ĞŞÀügÍîKbu[5ú\‹E«úW·ÒHSN+äğ¡òäŸÊ1pTTËÙæ<ÿ¿ÄVû„ÇLŞîÃœÍ¢ÊôØD¦É°´ k øXâ½„Qª$L‘7-HâObç(å´sšÂ¿ª"¢z£BP…¬¼J‘:ğ˜g›N)P4ö æ›íéè©šé$xöCº…_L2ß/÷ûñ-ñU\²@àùğO°&˜júQƒ‘U¡>!³
+ÎLˆ-¯?è¹{ºDÇØÆ™÷‹"à¸|¿J~æÆu)Ú¡<îÃ`åïàpĞİ¥ºIWAß/‡P¸àõû‡U±9fgšŒÖk/á¬ã•¤ÒWvìrónıÆè+c/‹%ñ%G©‡UÕ 5#tÎ‘Ä·ãFq:¹}õöØ‘°m›”8,^u7ó…6úßNJ s>?bù€È-¡˜[NŒBšæLSMÇ•kĞW‘?­g)®YÍ¼ç0†ÿ,7+8‘©Ú}Õ›l¸ŒNqŞY §OÉ‚ÿ'BX‰Ó&eöø6¬ÕLqVÍV‡ı¶œö¸´ãF´fÙÒ•ïi—C·§zˆ¯É”³\Ş-$–}¼D<(WF—½8¤¦à–$ƒİËò3OíákÆ¨fUae\À‹*¾_Ò?02š_|mşX÷<~Z\©&º$ì<ş?1ú2´°J^Ï+ÚãàºLÙlS|š*±^Ê¾˜¯­ç-$tçMûß	ïR0>"F÷îº&a²Ë`¥¡«g“¾ÑÉÊvÒ!,’­éöCŸ3„…Ka9ÆïìV-ÿÛË…K²> ·i4»X®Õx"‘ ëè(,£A˜º\:ˆ3lƒgPBVÇVN¦Ë·ªæWÈh!ˆ8
+EhÄæôhÉmãÔ¢öü UîÁËvÎ4ë‚¥¡'¥
+2ì®a›Ó%µéq“¨şç³Œ§İğ€à“–íydfaŞçü—vHÇ½@”J½nn„¥Š‚ú 0|y¥âyAL{±†¿/Ãô‡|<ÔqPÁuq´¦ÍÌ%kmÛ±«àAŸaCuÑ¤™1²MD˜w[jÛ›h–í7qv¡»&M³Q²…äÈ*[&uZÍYãŒ¬ëÕóù l²]>b\(Ú†á7®P¯‰&5áòZ
+ÀŸ»ŒGÑ*m»12cŞ#rÂ\¨æ¸‰ı÷£7± 
+{uİÄÄÖO%46/"9QG·#j¶Ê†YGª\8FJmË´zq¾ÛÿŠ[©N|ù¿-Ëï'yš$/3ö	nCZ×³­&È‹Bh’¸vİ»³¾õEd€‚= iÏVUí5xÍ"}ë/|äğÍ3¥$¼)gÏ]à¦âì”hÌ¡ìàÍ¸ûÌdsK$ÄµE§jÏ7v˜9ÄÔ5M×ãZÈ¸ç†^ûgD	‹0­áz¶‰8èù
+’¾¡¼y‡^“/;+p’j
+ØÉ,êÓmP :bôr¹£2ºGsĞ6J±ÉxJ@;ƒµÌ °EZ¡]ğfĞfİ+i1—“ãGÑ’ª#Êİo…Ş\³	4?µ}Ÿd|Ÿ´A&9Õ}AZX‘%// Forte Technologies, Inc.
 #define UHS_VID_MENTOR_GRAPHICS 0x04d6U // Mentor Graphics
 #define UHS_VID_OKI_SEMICONDUCTOR 0x04d7U // Oki Semiconductor
 #define UHS_VID_MICROCHIP_TECHNOLOGY 0x04d8U // Microchip Technology, Inc.
