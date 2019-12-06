@@ -192,7 +192,7 @@
 #define MSG_MOVE_10MM                       _UxGT("Mover 10mm")
 #define MSG_SPEED                           _UxGT("Velocidade")
 #define MSG_BED_Z                           _UxGT("Base Z")
-#define MSG_NOZZLE                          _UxGT("Bocal")
+#define MSG_NOZZLE                          _UxGT("Bico")
 #define MSG_BED                             _UxGT("Mesa")
 #define MSG_FAN_SPEED                       _UxGT("Vel. Ventoinha")
 #define MSG_EXTRA_FAN_SPEED                 _UxGT("+Vel. Ventoinha")
