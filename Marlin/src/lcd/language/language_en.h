@@ -116,7 +116,7 @@ namespace Language_en {
   PROGMEM Language_Str MSG_MESH_EDITOR                     = _UxGT("Mesh Editor");
   PROGMEM Language_Str MSG_EDIT_MESH                       = _UxGT("Edit Mesh");
   PROGMEM Language_Str MSG_EDITING_STOPPED                 = _UxGT("Mesh Editing Stopped");
-  PROGMEM Language_Str MSG_PROBING_MESH                    = _UxGT("Probing Point");
+  PROGMEM Language_Str MSG_PROBING_MESH                    = _UxGT("Ponto");
   PROGMEM Language_Str MSG_MESH_X                          = _UxGT("Index X");
   PROGMEM Language_Str MSG_MESH_Y                          = _UxGT("Index Y");
   PROGMEM Language_Str MSG_MESH_EDIT_Z                     = _UxGT("Z Value");
@@ -323,13 +323,13 @@ namespace Language_en {
   PROGMEM Language_Str MSG_WATCH                           = _UxGT("Info Screen");
   PROGMEM Language_Str MSG_PREPARE                         = _UxGT("Prepare");
   PROGMEM Language_Str MSG_TUNE                            = _UxGT("Tune");
-  PROGMEM Language_Str MSG_START_PRINT                     = _UxGT("Start Print");
+  PROGMEM Language_Str MSG_START_PRINT                     = _UxGT("Você deseja imprimir");
   PROGMEM Language_Str MSG_BUTTON_NEXT                     = _UxGT("Next");
   PROGMEM Language_Str MSG_BUTTON_INIT                     = _UxGT("Init");
-  PROGMEM Language_Str MSG_BUTTON_STOP                     = _UxGT("Stop");
-  PROGMEM Language_Str MSG_BUTTON_PRINT                    = _UxGT("Print");
+  PROGMEM Language_Str MSG_BUTTON_STOP                     = _UxGT("Parar");
+  PROGMEM Language_Str MSG_BUTTON_PRINT                    = _UxGT("Imprimir");
   PROGMEM Language_Str MSG_BUTTON_RESET                    = _UxGT("Reset");
-  PROGMEM Language_Str MSG_BUTTON_CANCEL                   = _UxGT("Cancel");
+  PROGMEM Language_Str MSG_BUTTON_CANCEL                   = _UxGT("Cancelar");
   PROGMEM Language_Str MSG_BUTTON_DONE                     = _UxGT("Done");
   PROGMEM Language_Str MSG_BUTTON_BACK                     = _UxGT("Back");
   PROGMEM Language_Str MSG_BUTTON_PROCEED                  = _UxGT("Proceed");
@@ -485,8 +485,8 @@ namespace Language_en {
   PROGMEM Language_Str MSG_DAC_EEPROM_WRITE                = _UxGT("DAC EEPROM Write");
   PROGMEM Language_Str MSG_FILAMENT_CHANGE_HEADER          = _UxGT("FILAMENT CHANGE");
   PROGMEM Language_Str MSG_FILAMENT_CHANGE_HEADER_PAUSE    = _UxGT("PRINT PAUSED");
-  PROGMEM Language_Str MSG_FILAMENT_CHANGE_HEADER_LOAD     = _UxGT("LOAD FILAMENT");
-  PROGMEM Language_Str MSG_FILAMENT_CHANGE_HEADER_UNLOAD   = _UxGT("UNLOAD FILAMENT");
+  PROGMEM Language_Str MSG_FILAMENT_CHANGE_HEADER_LOAD     = _UxGT("CARREGAR FILAMENTO");
+  PROGMEM Language_Str MSG_FILAMENT_CHANGE_HEADER_UNLOAD   = _UxGT("DESCARREGAR FILAMENTO");
   PROGMEM Language_Str MSG_FILAMENT_CHANGE_OPTION_HEADER   = _UxGT("RESUME OPTIONS:");
   PROGMEM Language_Str MSG_FILAMENT_CHANGE_OPTION_PURGE    = _UxGT("Purge more");
   PROGMEM Language_Str MSG_FILAMENT_CHANGE_OPTION_RESUME   = _UxGT("Continue");
