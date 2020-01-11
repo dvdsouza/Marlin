@@ -57,7 +57,7 @@ namespace Language_pt_br {
   PROGMEM Language_Str MSG_LEVEL_BED_HOMING                = _UxGT("Indo para origem");
   PROGMEM Language_Str MSG_LEVEL_BED_WAITING               = _UxGT("Clique para Iniciar");
   PROGMEM Language_Str MSG_LEVEL_BED_NEXT_POINT            = _UxGT("Próximo Ponto");
-  PROGMEM Language_Str MSG_LEVEL_BED_DONE                  = _UxGT("Fim nivelação!");
+  PROGMEM Language_Str MSG_LEVEL_BED_DONE                  = _UxGT("Fim nivelamento!");
   PROGMEM Language_Str MSG_Z_FADE_HEIGHT                   = _UxGT("Suavizar altura");
   PROGMEM Language_Str MSG_SET_HOME_OFFSETS                = _UxGT("Compensar origem");
   PROGMEM Language_Str MSG_HOME_OFFSETS_APPLIED            = _UxGT("Alteração aplicada");
@@ -114,7 +114,7 @@ namespace Language_pt_br {
   PROGMEM Language_Str MSG_UBL_ACTIVATE_MESH               = _UxGT("Ativar UBL");
   PROGMEM Language_Str MSG_UBL_DEACTIVATE_MESH             = _UxGT("Desativar UBL");
   PROGMEM Language_Str MSG_UBL_SET_TEMP_BED                = _UxGT("Temp. Mesa");
-  PROGMEM Language_Str MSG_UBL_BED_TEMP_CUSTOM             = _UxGT("Bed Temp");
+  PROGMEM Language_Str MSG_UBL_BED_TEMP_CUSTOM             = _UxGT("Temp. Mesa");
   PROGMEM Language_Str MSG_UBL_SET_TEMP_HOTEND             = _UxGT("Temp. Extrusora");
   PROGMEM Language_Str MSG_UBL_HOTEND_TEMP_CUSTOM          = _UxGT("Hotend Temp");
   PROGMEM Language_Str MSG_UBL_MESH_EDIT                   = _UxGT("Editar Malha");
@@ -203,8 +203,8 @@ namespace Language_pt_br {
   PROGMEM Language_Str MSG_MOVE_10MM                       = _UxGT("Mover 10mm");
   PROGMEM Language_Str MSG_SPEED                           = _UxGT("Velocidade");
   PROGMEM Language_Str MSG_BED_Z                           = _UxGT("Base Z");
-  PROGMEM Language_Str MSG_NOZZLE                          = _UxGT("Bocal");
-  PROGMEM Language_Str MSG_NOZZLE_N                        = _UxGT("Bocal ~");
+  PROGMEM Language_Str MSG_NOZZLE                          = _UxGT("Bico");
+  PROGMEM Language_Str MSG_NOZZLE_N                        = _UxGT("Bico ~");
   PROGMEM Language_Str MSG_BED                             = _UxGT("Mesa");
   PROGMEM Language_Str MSG_FAN_SPEED                       = _UxGT("Vel. Ventoinha");
   PROGMEM Language_Str MSG_FAN_SPEED_N                     = _UxGT("Vel. Ventoinha =");
@@ -387,18 +387,18 @@ namespace Language_pt_br {
   PROGMEM Language_Str MSG_FILAMENT_CHANGE_OPTION_HEADER   = _UxGT("Config. de Retomada");
   PROGMEM Language_Str MSG_FILAMENT_CHANGE_OPTION_PURGE    = _UxGT("Purgar mais");
   PROGMEM Language_Str MSG_FILAMENT_CHANGE_OPTION_RESUME   = _UxGT("Continuar Impressão");
-  PROGMEM Language_Str MSG_FILAMENT_CHANGE_NOZZLE          = _UxGT("  Bocal: ");
+  PROGMEM Language_Str MSG_FILAMENT_CHANGE_NOZZLE          = _UxGT("  Bico: ");
   PROGMEM Language_Str MSG_RUNOUT_SENSOR                   = _UxGT("Sensor filamento");
   PROGMEM Language_Str MSG_LCD_HOMING_FAILED               = _UxGT("Falha ao ir à origem");
-  PROGMEM Language_Str MSG_LCD_PROBING_FAILED              = _UxGT("Falha ao sondar");
+  PROGMEM Language_Str MSG_LCD_PROBING_FAILED              = _UxGT("Falha ao nivelar");
   PROGMEM Language_Str MSG_M600_TOO_COLD                   = _UxGT("M600: Muito frio");
 
   #if LCD_HEIGHT >= 4
     PROGMEM Language_Str MSG_ADVANCED_PAUSE_WAITING        = _UxGT(MSG_2_LINE("Aperte o botão para", "continuar impressão"));
     PROGMEM Language_Str MSG_FILAMENT_CHANGE_INIT          = _UxGT(MSG_3_LINE("Esperando o", "inicio da", "troca de filamento"));
     PROGMEM Language_Str MSG_FILAMENT_CHANGE_INSERT        = _UxGT(MSG_3_LINE("Coloque filamento", "pressione o botão", "para continuar..."));
-    PROGMEM Language_Str MSG_FILAMENT_CHANGE_HEAT          = _UxGT(MSG_2_LINE("Pressione o botão", "p/ aquecer o bocal"));
-    PROGMEM Language_Str MSG_FILAMENT_CHANGE_HEATING       = _UxGT(MSG_2_LINE("Aquecendo o bocal", "Aguarde..."));
+    PROGMEM Language_Str MSG_FILAMENT_CHANGE_HEAT          = _UxGT(MSG_2_LINE("Pressione o botão", "p/ aquecer o bico"));
+    PROGMEM Language_Str MSG_FILAMENT_CHANGE_HEATING       = _UxGT(MSG_2_LINE("Aquecendo o bico", "Aguarde..."));
     PROGMEM Language_Str MSG_FILAMENT_CHANGE_UNLOAD        = _UxGT(MSG_2_LINE("Esperando", "remoção de filamento"));
     PROGMEM Language_Str MSG_FILAMENT_CHANGE_LOAD          = _UxGT(MSG_2_LINE("Esperando", "filamento"));
     PROGMEM Language_Str MSG_FILAMENT_CHANGE_PURGE         = _UxGT(MSG_2_LINE("Espere pela", "purga de filamento"));

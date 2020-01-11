@@ -370,7 +370,7 @@ bool set_probe_deployed(const bool deploy) {
   #endif
 
   if (deploy_stow_condition && unknown_condition)
-    do_probe_raise(_MAX(Z_CLEARANCE_BETWEEN_PROBES, Z_CLEARANCE_DEPLOY_PROBE));
+    do_probe_raise(Z_CLEARANCE_DEPLOY_PROBE);
 
   #if EITHER(Z_PROBE_SLED, Z_PROBE_ALLEN_KEY)
     if (axis_unhomed_error(

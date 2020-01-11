@@ -368,9 +368,9 @@ namespace Language_en {
   PROGMEM Language_Str MSG_NOZZLE_STANDBY                  = _UxGT("Nozzle Standby");
   PROGMEM Language_Str MSG_FILAMENTCHANGE                  = _UxGT("Change Filament");
   PROGMEM Language_Str MSG_FILAMENTCHANGE_E                = _UxGT("Change Filament *");
-  PROGMEM Language_Str MSG_FILAMENTLOAD                    = _UxGT("Load Filament");
+  PROGMEM Language_Str MSG_FILAMENTLOAD                    = _UxGT("Inserir Filamento");
   PROGMEM Language_Str MSG_FILAMENTLOAD_E                  = _UxGT("Load Filament *");
-  PROGMEM Language_Str MSG_FILAMENTUNLOAD                  = _UxGT("Unload Filament");
+  PROGMEM Language_Str MSG_FILAMENTUNLOAD                  = _UxGT("Retirar Filamento");
   PROGMEM Language_Str MSG_FILAMENTUNLOAD_E                = _UxGT("Unload Filament *");
   PROGMEM Language_Str MSG_FILAMENTUNLOAD_ALL              = _UxGT("Unload All");
   PROGMEM Language_Str MSG_INIT_MEDIA                      = _UxGT("Init. Media");
@@ -483,7 +483,7 @@ namespace Language_en {
   PROGMEM Language_Str MSG_DAC_PERCENT                     = _UxGT("Driver %");
   PROGMEM Language_Str MSG_ERROR_TMC                       = _UxGT("TMC CONNECTION ERROR");
   PROGMEM Language_Str MSG_DAC_EEPROM_WRITE                = _UxGT("DAC EEPROM Write");
-  PROGMEM Language_Str MSG_FILAMENT_CHANGE_HEADER          = _UxGT("FILAMENT CHANGE");
+  PROGMEM Language_Str MSG_FILAMENT_CHANGE_HEADER          = _UxGT("TROCA DE FILAMENTO");
   PROGMEM Language_Str MSG_FILAMENT_CHANGE_HEADER_PAUSE    = _UxGT("PRINT PAUSED");
   PROGMEM Language_Str MSG_FILAMENT_CHANGE_HEADER_LOAD     = _UxGT("CARREGAR FILAMENTO");
   PROGMEM Language_Str MSG_FILAMENT_CHANGE_HEADER_UNLOAD   = _UxGT("DESCARREGAR FILAMENTO");
@@ -503,12 +503,12 @@ namespace Language_en {
   PROGMEM Language_Str MSG_MMU2_NOT_RESPONDING             = _UxGT("MMU Needs Attention.");
   PROGMEM Language_Str MSG_MMU2_RESUME                     = _UxGT("Resume Print");
   PROGMEM Language_Str MSG_MMU2_RESUMING                   = _UxGT("Resuming...");
-  PROGMEM Language_Str MSG_MMU2_LOAD_FILAMENT              = _UxGT("Load Filament");
+  PROGMEM Language_Str MSG_MMU2_LOAD_FILAMENT              = _UxGT("Carregar Filamento");
   PROGMEM Language_Str MSG_MMU2_LOAD_ALL                   = _UxGT("Load All");
   PROGMEM Language_Str MSG_MMU2_LOAD_TO_NOZZLE             = _UxGT("Load to Nozzle");
   PROGMEM Language_Str MSG_MMU2_EJECT_FILAMENT             = _UxGT("Eject Filament");
   PROGMEM Language_Str MSG_MMU2_EJECT_FILAMENT_N           = _UxGT("Eject Filament ~");
-  PROGMEM Language_Str MSG_MMU2_UNLOAD_FILAMENT            = _UxGT("Unload Filament");
+  PROGMEM Language_Str MSG_MMU2_UNLOAD_FILAMENT            = _UxGT("Descarreg. Filamento");
   PROGMEM Language_Str MSG_MMU2_LOADING_FILAMENT           = _UxGT("Loading Fil. %i...");
   PROGMEM Language_Str MSG_MMU2_EJECTING_FILAMENT          = _UxGT("Ejecting Fil. ...");
   PROGMEM Language_Str MSG_MMU2_UNLOADING_FILAMENT         = _UxGT("Unloading Fil....");
