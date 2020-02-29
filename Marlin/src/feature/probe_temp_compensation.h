@@ -1,6 +1,6 @@
 /**
  * Marlin 3D Printer Firmware
- * Copyright (c) 2019 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
+ * Copyright (c) 2020 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
  *
  * Based on Sprinter and grbl.
  * Copyright (c) 2011 Camiel Gubbels / Erik van der Zalm
@@ -57,7 +57,7 @@ class ProbeTempComp {
     static const temp_calib_t cali_info[TSI_COUNT];
 
     // Where to park nozzle to wait for probe cooldown
-    static constexpr xyz_pos_t park_point = { PTC_PARK_POS_X, PTC_PARK_POS_Y, PTC_PARK_POS_Z };
+    static constexpr xyz_pos_t park_point = xyz_pos_t({ PTC_PARK_POS_X, PTC_PARK_POS_Y, PTC_PARK_POS_Z });
 
     static constexpr int  max_bed_temp         = PTC_MAX_BED_TEMP,  // Max temperature to avoid heating errors
 
